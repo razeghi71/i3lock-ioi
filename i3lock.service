@@ -1,0 +1,10 @@
+[Unit]
+Description=I3Lock Lock Manager
+
+[Service]
+ExecStart=/usr/bin/i3lock
+Restart=always
+IgnoreSIGPIPE=no
+
+[Install]
+Alias=display-manager.service
